@@ -28,6 +28,7 @@ module PeopleApp
     private
 
     def mime_type(env)
+     # 'application/json'
       env["HTTP_ACCEPT"].split(',')[0]
     end
 
